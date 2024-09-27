@@ -1,14 +1,24 @@
 // eslint-disable-next-line no-unused-vars
-import React from "react";
+import React,{ useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  }; 
+
   return (
     <>
       <nav className="nav-wrapper">
         <div className="nav-content">
           <img className="logo" src="./logo.png" />
-          <ul>
+          <div className="hamburger-icon" onClick={toggleMenu}>
+            {isOpen ? <FaTimes /> : <FaBars />}
+          </div>
+          <ul className={isOpen ? "menu open" : "menu"}>
             <li>
               <a className="menu-item">Home</a>
             </li>

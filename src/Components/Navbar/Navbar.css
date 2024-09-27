@@ -85,3 +85,59 @@
   background: #000;
   outline: 1.5px solid #a993fe;
 }
+
+.hamburger-icon {
+  display: none;
+  font-size: 1.8rem;
+  color: white;
+  cursor: pointer;
+  z-index: 60;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .nav-content {
+    width: 100%; 
+  }
+
+  .hamburger-icon {
+    display: block;
+  }
+
+  .menu {
+    position: fixed;
+    top: 0;
+    right:0;
+    background: black;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px; 
+    height: 100vh; 
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 50;
+  }
+
+  .menu.open {
+    max-height: 100vh;
+    opacity: 1;
+    padding: 1rem;
+  }
+
+  .nav-content ul {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-content li {
+    margin: 1rem 0;
+  }
+
+  .contact-btn {
+    margin-top: 1rem;
+  }
+}
