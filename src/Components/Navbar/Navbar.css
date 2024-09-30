@@ -88,11 +88,13 @@
 
 .hamburger-icon {
   display: none;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color: white;
   cursor: pointer;
   z-index: 60;
   position: relative;
+  margin-right: 1rem;
+
 }
 
 @media (max-width: 768px) {
@@ -113,7 +115,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 200px; 
     height: 100vh; 
     max-height: 0;
     overflow: hidden;

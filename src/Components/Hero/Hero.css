@@ -1,0 +1,49 @@
+.heroSection {
+  margin: 8rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8rem;
+}
+
+p {
+  text-wrap: wrap;
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mail {
+  margin-top: 2rem;
+}
+
+.mail a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+  align-items: center;
+  justify-content: center;
+  padding: 0.7rem 1rem;
+  border: none;
+  outline: 1.5px solid transparent;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mail a:hover {
+  color: #a993fe;
+  background: #000;
+  outline: 1.5px solid #a993fe;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}

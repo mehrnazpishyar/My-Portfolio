@@ -1,12 +1,16 @@
-import Navbar from "./Components/Navbar/Navbar"
-
+import "./App.css";
+import Hero from "./Components/Hero/Hero";
+import Navbar from "./Components/Navbar/Navbar";
 
 const App = () => {
   return (
     <div>
-   <Navbar/>
+      <Navbar />
+      <div className="container">
+        <Hero />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
