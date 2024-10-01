@@ -1,19 +1,17 @@
-
-import './SkillCard.css'
-
+import "./SkillCard.css";
 
 const SkillCard = ({ title, iconUrl, isActive, onClick }) => {
-    return (
-      <div
-        className={`skills-card ${isActive ? "active" : ""}`}
-        onClick={() => onClick()}
-      >
-        <div className="skill-icon">
-          <img src={iconUrl} alt={title} />
-        </div>
-        <span>{title}</span>
+  return (
+    <div
+      className={`skills-card ${isActive ? "active" : ""}`}
+      onClick={() => onClick()}
+    >
+      <div className="skill-icon">
+        <img src={iconUrl} alt={title} />
       </div>
-    );
-  };
-  
-  export default SkillCard;
+      <span>{title}</span>
+    </div>
+  );
+};
+
+export default SkillCard;

@@ -1,60 +1,55 @@
-
-.skills-info-card{
-    min-height: 17.2rem;
-    border-radius: 0.65rem;
-    border: 1.5px solid #6751b9;
-    background: rgba(22,17,47,0.398);
-    backdrop-filter:blur(1rem);
-    text-align: center;
+.skills-info-card {
+  min-height: 17.2rem;
+  border-radius: 0.65rem;
+  border: 1.5px solid #6751b9;
+  background: rgba(22, 17, 47, 0.398);
+  backdrop-filter: blur(1rem);
+  text-align: center;
 }
 
-.skills-info-card h6{
-    font-size: 1.2rem;
-    padding: 0.8rem 2rem;
-    background: linear-gradient(180deg, #ac96ff 0%, #7c5fe6 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border-bottom: 1.5px solid #6751b9;
+.skills-info-card h6 {
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  background: linear-gradient(180deg, #ac96ff 0%, #7c5fe6 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom: 1.5px solid #6751b9;
 }
 
-
-.skills-info-content{
-    padding: 2rem;
+.skills-info-content {
+  padding: 2rem;
 }
 
-.skill-info{
-display: flex;
-align-items: center;
+.skill-info {
+  display: flex;
+  align-items: center;
 }
 
-.skill-info p{
-    font-size: 1rem;
-    font-weight: 500;
-    line-height: 2rem;
+.skill-info p {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 2rem;
 }
 
-.skill-info .checkBox{
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 2rem;
-    padding-top: 0.5rem;
-    padding-right: 0.5rem;
-   
+.skill-info .checkBox {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  padding-top: 0.5rem;
+  padding-right: 0.5rem;
 }
 
+@media (max-width: 1025px) {
+  .skills-info-card h6 {
+    font-size: 1.1rem;
+  }
 
-@media (max-width:1025px){
-    .skills-info-card h6{
-        font-size: 1.1rem;
+  .skill-info p {
+    font-size: 0.9rem;
+  }
 
-    }
-
-    .skill-info p {
-        font-size: 0.9rem;
-    }
-
-    .skills-info-content{
-       padding: 1.5rem; 
-    }
+  .skills-info-content {
+    padding: 1.5rem;
+  }
 }

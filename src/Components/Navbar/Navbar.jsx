@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
@@ -8,7 +7,7 @@ const Navbar = () => {
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
-  }; 
+  };
 
   return (
     <>

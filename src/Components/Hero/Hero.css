@@ -6,7 +6,8 @@
   gap: 8rem;
 }
 
-.heroSection::after, .heroSection::before{
+.heroSection::after,
+.heroSection::before {
   content: "";
   width: 23rem;
   height: 23rem;
@@ -17,17 +18,9 @@
   filter: blur(300px);
 }
 
-.heroSection::after{
+.heroSection::after {
   top: -5rem;
   left: -5rem;
-}
-
-
-
-
-p {
-  font-size: 1.4rem;
-  line-height: 1.6;
 }
 
 h1 {
@@ -35,8 +28,13 @@ h1 {
   margin-bottom: 1.5rem;
 }
 
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
 .mail {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .mail a {
@@ -66,4 +64,47 @@ img {
   height: 400px;
   border-radius: 50%;
   object-fit: cover;
+}
+
+@media (max-width: 1025px) {
+  .heroSection {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  p {
+    margin: 0 3rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .mail a {
+    font-size: 1rem;
+  }
+
+  img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .heroSection {
+    gap: 5rem;
+  }
+
+  p {
+    margin: 0 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
 }

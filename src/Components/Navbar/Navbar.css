@@ -1,12 +1,11 @@
 .nav-wrapper {
-  background: rgba(0,0,0,0.1);
+  background: rgba(0, 0, 0, 0.1);
   padding: 0.5rem 0;
   position: sticky;
   top: 0;
   z-index: 30;
   backdrop-filter: blur(50px);
 }
-
 
 .nav-content {
   width: 1300px;
@@ -22,17 +21,15 @@
   height: auto;
 }
 
-.nav-content ul{
+.nav-content ul {
   display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        list-style: none;
-  
+  align-items: center;
+  gap: 0.5rem;
+  list-style: none;
 }
 
-.nav-content li{
+.nav-content li {
   margin: 0 1.5rem;
-  
 }
 
 .menu-item {
@@ -77,7 +74,6 @@
   border-radius: 0.2rem;
   cursor: pointer;
   transition: all 0.3s ease;
-
 }
 
 .contact-btn:hover {
@@ -94,12 +90,11 @@
   z-index: 60;
   position: relative;
   margin-right: 1rem;
-
 }
 
 @media (max-width: 768px) {
   .nav-content {
-    width: 100%; 
+    width: 100%;
   }
 
   .hamburger-icon {
@@ -109,13 +104,13 @@
   .menu {
     position: fixed;
     top: 0;
-    right:0;
+    right: 0;
     background: black;
     color: #fff;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; 
+    height: 100vh;
     max-height: 0;
     overflow: hidden;
     opacity: 0;

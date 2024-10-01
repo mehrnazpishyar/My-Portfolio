@@ -50,18 +50,18 @@
 
 @media (max-width: 1025px) {
   .skills {
-    padding-left: 1rem;
+    margin: 0 auto;
   }
 }
 
-
 @media (max-width: 768px) {
   .skills-content {
-    flex-direction: column-reverse ;
+    flex-direction: column-reverse;
     gap: 3rem;
   }
 
-  .skill, .skills-info{
+  .skill,
+  .skills-info {
     width: 100%;
   }
 
@@ -70,15 +70,15 @@
     margin-bottom: 2rem;
   }
 
-  .skills-container::after,.skills-container::before  {
-   width: 18rem;
-   height: 18rem;
+  .skills-container::after,
+  .skills-container::before {
+    width: 18rem;
+    height: 18rem;
   }
 }
 
-
-@media (max-width: 600px){
-  .skills-container{
+@media (max-width: 600px) {
+  .skills-container {
     padding: 0;
   }
 }

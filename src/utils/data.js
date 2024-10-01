@@ -45,9 +45,27 @@ export const WORK_EXPERIENCE  = [
         title:'Junior Front-end Developer' ,
         date : 'January 2022 - present' ,
         responsibilities: [
-            '',
-            '',
-            ''
+            's video, we will learn how to build a responsive portfolio website using React',
+            'o website we build in this tutorial will consis',
+            'ng React JS. The portfolio website we build in this tutorial will consist of a navbar, hero section'
         ]
-    }
+    },
+    {
+        title:'Junior Front-end Developer' ,
+        date : 'January 2022 - present' ,
+        responsibilities: [
+            's video, we will learn how to build a responsive portfolio website using React',
+            'o website we build in this tutorial will consis',
+            'ng React JS. The portfolio website we build in this tutorial will consist of a navbar, hero section'
+        ]
+    },
+    {
+        title:'Junior Front-end Developer' ,
+        date : 'January 2022 - present' ,
+        responsibilities: [
+            's video, we will learn how to build a responsive portfolio website using React',
+            'o website we build in this tutorial will consis',
+            'ng React JS. The portfolio website we build in this tutorial will consist of a navbar, hero section'
+        ]
+    },
 ]

@@ -10,13 +10,10 @@ const SkillsInfoCard = ({ heading, skills }) => {
         {skills.map((item, index) => (
           <React.Fragment key={`skill_${index}`}>
             <div className="skill-info">
-             
-                <div className="checkBox">
-                  <IoIosCheckboxOutline />
-                </div>
-                <p>
-                {item.skill}
-              </p>
+              <div className="checkBox">
+                <IoIosCheckboxOutline />
+              </div>
+              <p>{item.skill}</p>
             </div>
           </React.Fragment>
         ))}
