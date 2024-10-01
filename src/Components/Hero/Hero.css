@@ -6,6 +6,25 @@
   gap: 8rem;
 }
 
+.heroSection::after, .heroSection::before{
+  content: "";
+  width: 23rem;
+  height: 23rem;
+  border-radius: 28.125rem;
+  background: #7c66e3;
+  position: absolute;
+  z-index: -1;
+  filter: blur(300px);
+}
+
+.heroSection::after{
+  top: -5rem;
+  left: -5rem;
+}
+
+
+
+
 p {
   font-size: 1.4rem;
   line-height: 1.6;

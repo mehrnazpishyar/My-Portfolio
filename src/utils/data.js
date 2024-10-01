@@ -4,7 +4,7 @@ export const SKILLS = [
         icon:'frontend.png',
         skills:[
             {skill:'HTML'},
-            {skill:'CSS3'},
+            {skill:'CSS3 (Sass/SCSS)'},
             {skill:'JavaScript'},
             {skill:'React.js'},
             {skill:'Angular'},
@@ -37,4 +37,17 @@ export const SKILLS = [
            
         ],
     },
+]
+
+
+export const WORK_EXPERIENCE  = [
+    {
+        title:'Junior Front-end Developer' ,
+        date : 'January 2022 - present' ,
+        responsibilities: [
+            '',
+            '',
+            ''
+        ]
+    }
 ]
