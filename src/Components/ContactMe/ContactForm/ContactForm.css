@@ -26,7 +26,7 @@ form textarea {
   padding: 1rem;
 }
 
-form button {
+form .submit-btn {
   font-size: 1rem;
   font-weight: 500;
   color: #fff;
@@ -38,7 +38,7 @@ form button {
   cursor: pointer;
 }
 
-form button:hover {
+form .submit-btn:hover {
   color: #a892fe;
   background: transparent;
 }
@@ -55,7 +55,7 @@ form button:hover {
     border-radius: 0.3rem;
   }
 
-  form button {
+  form .submit-btn {
     font-size: 0.9rem;
     padding: 0.7rem;
     border-radius: 0.3rem;
