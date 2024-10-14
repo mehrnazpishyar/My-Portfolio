@@ -11,7 +11,13 @@
 
 .contact-content {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
+}
+
+.contact-info{
+  display: flex;
 }
 
 @media (max-width: 768px) {

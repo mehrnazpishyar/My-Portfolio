@@ -1,25 +1,24 @@
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import "./ContactForm.css";
 
 const ContactForm = () => {
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_bwkc4u7', 'template_abe0qvd', form.current, {
-        publicKey: 'qvICHaqRSY6V5wHZq',
+      .sendForm("service_bwkc4u7", "template_abe0qvd", form.current, {
+        publicKey: "qvICHaqRSY6V5wHZq",
       })
       .then(
         () => {
-          console.log('SUCCESS!');
+          console.log("SUCCESS!");
         },
         (error) => {
-          console.log('FAILED...', error.text);
-        },
+          console.log("FAILED...", error.text);
+        }
       );
   };
 
@@ -36,7 +35,7 @@ const ContactForm = () => {
           placeholder="Message"
           rows={3}
         ></textarea>
-        <input className='submit-btn' type="submit" value="send" />
+        <input className="submit-btn" type="submit" value="send" />
       </form>
     </div>
   );
