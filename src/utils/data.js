@@ -69,3 +69,22 @@ export const WORK_EXPERIENCE  = [
         ]
     },
 ]
+
+
+export const Project_Card = [
+    {
+        title:"Lorem ipsum",
+        des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        src:'./project.jpg'
+    },
+    {
+        title:"Lorem ipsum",
+        des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        src:'./project.jpg'
+    },
+    {
+        title:"Lorem ipsum",
+        des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
+        src:'./project.jpg'
+    },
+]
