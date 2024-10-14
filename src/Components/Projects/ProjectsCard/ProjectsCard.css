@@ -55,7 +55,6 @@
   .projects-card-header h3 {
     font-size: 1rem;
     text-transform: uppercase;
-    color: var(--designColor);
     font-weight: 400;
   }
   
@@ -80,10 +79,10 @@
   }
   
   .icon:hover {
-    color: var(--designColor);
+    color: #fff;
   }
   
-
+  
   .projects-card-content p {
     font-size: 0.875rem;
     letter-spacing: 0.05rem;

@@ -1,5 +1,5 @@
 import "./App.css";
-// import ContactMe from "./Components/ContactMe/ContactMe";
+import ContactMe from "./Components/ContactMe/ContactMe";
 import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import Navbar from "./Components/Navbar/Navbar";
@@ -16,7 +16,7 @@ const App = () => {
         <Skills/>
         <WorkExperience/>
         <Projects/>
-        {/* <ContactMe/> */}
+        <ContactMe/>
       </div>
       <Footer/>
     </div>
