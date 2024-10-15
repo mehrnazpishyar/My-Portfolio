@@ -1,6 +1,6 @@
-import './ContactForm.css'
-
-import { useState } from 'react';
+import "./ContactForm.css";
+import emailjs from "emailjs-com";
+import { useState } from "react";
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -19,6 +19,7 @@ const Contact = () => {
 
   const handleSend = (e) => {
     e.preventDefault();
+
     if (username === "") {
       setErrMsg("Username is required!");
     } else if (phoneNumber === "") {
@@ -32,26 +33,44 @@ const Contact = () => {
     } else if (message === "") {
       setErrMsg("Message is required!");
     } else {
-      setSuccessMsg(
-        `Thank you dear ${username}, Your Messages have been sent successfully!`
-      );
-      setErrMsg("");
-      setUsername("");
-      setPhoneNumber("");
-      setEmail("");
-      setSubject("");
-      setMessage("");
+      const templateParams = {
+        username,
+        phoneNumber,
+        email,
+        subject,
+        message,
+      };
+
+      emailjs
+        .send(
+          "service_bwkc4u7",
+          "template_abe0qvd",
+          templateParams,
+          "qvICHaqRSY6V5wHZq"
+        )
+        .then((response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          setSuccessMsg(
+            `Thank you dear ${username}, Your message has been sent successfully!`
+          );
+          setErrMsg("");
+          setUsername("");
+          setPhoneNumber("");
+          setEmail("");
+          setSubject("");
+          setMessage("");
+        })
+        .catch((error) => {
+          console.log("FAILED...", error);
+          setErrMsg("Failed to send your message. Please try again later.");
+        });
     }
   };
 
   return (
     <section id="contact" className="contact-section">
-      <div className="contact-title">
-
-      </div>
       <div className="contact-container">
         <div className="contact-content">
-      
           <div className="contact-form-container">
             <form className="contact-form">
               {errMsg && <p className="contact-error">{errMsg}</p>}
@@ -62,7 +81,9 @@ const Contact = () => {
                   <input
                     onChange={(e) => setUsername(e.target.value)}
                     value={username}
-                    className={errMsg === "Username is required!" ? "error" : ""}
+                    className={
+                      errMsg === "Username is required!" ? "error" : ""
+                    }
                     type="text"
                   />
                 </div>
@@ -71,7 +92,9 @@ const Contact = () => {
                   <input
                     onChange={(e) => setPhoneNumber(e.target.value)}
                     value={phoneNumber}
-                    className={errMsg === "Phone number is required!" ? "error" : ""}
+                    className={
+                      errMsg === "Phone number is required!" ? "error" : ""
+                    }
                     type="text"
                   />
                 </div>
@@ -81,7 +104,9 @@ const Contact = () => {
                 <input
                   onChange={(e) => setEmail(e.target.value)}
                   value={email}
-                  className={errMsg === "Please give your Email!" ? "error" : ""}
+                  className={
+                    errMsg === "Please give your Email!" ? "error" : ""
+                  }
                   type="email"
                 />
               </div>
@@ -90,7 +115,9 @@ const Contact = () => {
                 <input
                   onChange={(e) => setSubject(e.target.value)}
                   value={subject}
-                  className={errMsg === "Plese give your Subject!" ? "error" : ""}
+                  className={
+                    errMsg === "Please give your Subject!" ? "error" : ""
+                  }
                   type="text"
                 />
               </div>

@@ -37,7 +37,7 @@ const WorkExperience = () => {
 
   return (
     <section className="experience-container">
-      <h5>Work Experience</h5>
+      <h2>Work Experience</h2>
       <div className="experience-content">
         <div className="arrow-right" onClick={sliderRight}>
           <span className="material-symbols-outlined">

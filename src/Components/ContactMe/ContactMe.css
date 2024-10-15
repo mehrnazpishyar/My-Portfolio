@@ -4,10 +4,15 @@
  gap: 2rem;
 }
 
-
+.content-title h2{
+  margin-top: 10rem;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
 
 @media (max-width: 768px) {
-  .contact-content {
+  .contact-container {
     flex-direction: column;
   }
 

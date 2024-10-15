@@ -1,12 +1,13 @@
 import "./ContactForm/ContactForm";
 import ContactForm from "./ContactForm/ContactForm";
 import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
+import './ContactMe.css'
 
 const ContactLeft = () => {
   return (
-    <div >
-      <div>
-        <h2>Contact with Me</h2>
+    <div>
+      <div className="content-title">
+      <h2>Contact with Me</h2>
       </div>
       <div className="contact-container">
         <ContactInfoCard />

@@ -76,7 +76,7 @@
   
   .contact-input-field p {
     font-size: 0.875rem;
-    color: gray;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
   }
@@ -127,3 +127,11 @@
     }
   }
   
+
+  
+@media (max-width: 768px) {
+  .contact-input-group {
+    flex-direction: column;
+  }
+
+}
