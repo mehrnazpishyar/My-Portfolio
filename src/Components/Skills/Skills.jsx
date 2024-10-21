@@ -12,7 +12,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="skills-container">
+    <div id='skills' className="skills-container">
       <h2>Technical Proficiency</h2>
       <div className="skills-content">
         <div className="skills">

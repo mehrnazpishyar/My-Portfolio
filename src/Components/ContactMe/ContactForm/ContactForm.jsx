@@ -22,8 +22,6 @@ const Contact = () => {
 
     if (username === "") {
       setErrMsg("Username is required!");
-    } else if (phoneNumber === "") {
-      setErrMsg("Phone number is required!");
     } else if (email === "") {
       setErrMsg("Please give your Email!");
     } else if (!emailValidation(email)) {
@@ -55,7 +53,6 @@ const Contact = () => {
           );
           setErrMsg("");
           setUsername("");
-          setPhoneNumber("");
           setEmail("");
           setSubject("");
           setMessage("");
@@ -83,17 +80,6 @@ const Contact = () => {
                     value={username}
                     className={
                       errMsg === "Username is required!" ? "error" : ""
-                    }
-                    type="text"
-                  />
-                </div>
-                <div className="contact-input-field">
-                  <p>Phone Number</p>
-                  <input
-                    onChange={(e) => setPhoneNumber(e.target.value)}
-                    value={phoneNumber}
-                    className={
-                      errMsg === "Phone number is required!" ? "error" : ""
                     }
                     type="text"
                   />

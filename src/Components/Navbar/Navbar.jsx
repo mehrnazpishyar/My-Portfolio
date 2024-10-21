@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-scroll";
+
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -19,20 +21,62 @@ const Navbar = () => {
           </div>
           <ul className={isOpen ? "menu open" : "menu"}>
             <li>
-              <a className="menu-item">Home</a>
+              <Link
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+              Home
+              </Link>
             </li>
             <li>
-              <a className="menu-item">Project</a>
+              <Link
+                to="skills"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Skills
+              </Link>
             </li>
             <li>
-              <a className="menu-item">Skills</a>
+              <Link
+                to="experience"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+                Work Experience
+              </Link>
             </li>
             <li>
-              <a className="menu-item">Contact Me</a>
+              <Link
+                to="projects"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+               Projects
+              </Link>
             </li>
-            <button className="contact-btn" onClick={() => {}}>
-              Hire Me
-            </button>
+
+            <li>
+              <Link
+                to="contact"
+                spy={true}
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
+              Contact Me
+              </Link>
+            </li>
           </ul>
         </div>
       </nav>
