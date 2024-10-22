@@ -73,18 +73,21 @@ export const WORK_EXPERIENCE  = [
 
 export const Project_Card = [
     {
-        title:"Lorem ipsum",
-        des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-        src:'./project.jpg'
+        title:"E-commerce Website",
+        des:"This is a sample project for an online shop where users can view product details, add items to their Favorite list, or purchase products directly. Additionally, products can be filtered by category and price.",
+        src:'./ecommerce.jpg',
+        url:'https://ecommerce-siteee.netlify.app/'
     },
     {
-        title:"Lorem ipsum",
-        des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-        src:'./project.jpg'
+        title:"Movie character app",
+        des:" This is a sample project related to movie characters, where users can select their character and view the related movies and episodes.also can add characters to their Favorite list or find them through search.",
+        src:'./movie-character.jpg',
+        url:'https://movie-character-app.netlify.app/'
     },
     {
-        title:"Lorem ipsum",
-        des:" Lorem, ipsum dolor sit amet consectetur adipisicing elit.",
-        src:'./project.jpg'
+        title:"E-commerce Website",
+        des:"This is a sample project for an online shop where users can view product details, add items to their wishlist, or purchase products directly. Additionally, products can be filtered by category and price.",
+        src:'./ecommerce.jpg',
+        url:''
     },
 ]
