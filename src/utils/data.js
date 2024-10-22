@@ -3,11 +3,16 @@ export const SKILLS = [
         title: 'Frontend',
         icon:'frontend.png',
         skills:[
-            {skill:'HTML'},
+            {skill:'HTML5'},
             {skill:'CSS3 (Sass/SCSS)'},
             {skill:'JavaScript'},
+            {skill:'TypeScript'},
             {skill:'React.js'},
+            {skill:'Next.js'},
             {skill:'Angular'},
+            {skill:'Redux'},
+            {skill:'SPA'},
+            {skill:'PWA'},
         ],
     },
     {
@@ -18,12 +23,20 @@ export const SKILLS = [
         ],
     },
     {
-        title: 'Tools',
+        title: 'Tools & Design',
         icon:'tools.png',
         skills:[
             {skill:'Git & GitHub'},
             {skill:'Visual Studio Code'},
             {skill:'Responsive Design'},
+            {skill:'TailwindCSS'},
+            {skill:'Bootstrap4'},
+            {skill:'Material UI '},
+            {skill:'RESTful API '},
+            {skill:'Adobe Photoshop'},
+            {skill:'Adobe Illustrator'},
+            {skill:'Adobe XD'},
+            {skill:'Figma'},
             
         ],
     },
@@ -34,6 +47,8 @@ export const SKILLS = [
             {skill:'Problem-solving'},
             {skill:'Collaboration'},
             {skill:'Attention to Detail'},
+            {skill:'Communication skills'},
+            {skill:'Teamwork skills'},
            
         ],
     },
@@ -42,30 +57,46 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE  = [
     {
-        title:'Junior Front-end Developer' ,
-        date : 'January 2022 - present' ,
+        title:'Frontend Developer' ,
+        date : 'August 2024 - present' ,
         responsibilities: [
-            's video, we will learn how to build a responsive portfolio website using React',
-            'o website we build in this tutorial will consis',
-            'ng React JS. The portfolio website we build in this tutorial will consist of a navbar, hero section'
+            'Part of the development team responsible for creating and designing the web application using React.js',
+            'Developed the web application focusing on UI/UX',
+            'Optimized components for web-based applications, ensuring maximum performance across a wide range of devices and browsers',
+            'Created a smooth and efficient user experience by developing Single Page Applications (SPA) with React Router',
+            'Utilized React concepts such as JSX, components, state, props, and hooks to develop robust and scalable web applications for clients',
+            'Worked in an agile environment, employing methodologies like Scrum for efficient, smooth development and on-time delivery of projects'
         ]
     },
     {
-        title:'Junior Front-end Developer' ,
-        date : 'January 2022 - present' ,
+        title:'Frontend Developer' ,
+        date : 'March 2019 - May 2023' ,
         responsibilities: [
-            's video, we will learn how to build a responsive portfolio website using React',
-            'o website we build in this tutorial will consis',
-            'ng React JS. The portfolio website we build in this tutorial will consist of a navbar, hero section'
+            'Part of the development team responsible for creating and designing the web application using React.js',
+            'Developed the web application focusing on UI/UX',
+            'Optimized components for web-based applications, ensuring maximum performance across a wide range of devices and browsers',
+            'Created a smooth and efficient user experience by developing Single Page Applications (SPA) with React Router',
+            'Utilized React concepts such as JSX, components, state, props, and hooks to develop robust and scalable web applications for clients',
+            'Worked in an agile environment, employing methodologies like Scrum for efficient, smooth development and on-time delivery of projects'
         ]
     },
     {
-        title:'Junior Front-end Developer' ,
-        date : 'January 2022 - present' ,
+        title:'UI und WordPress Designer' ,
+        date : 'August 2017 - January 2019' ,
         responsibilities: [
-            's video, we will learn how to build a responsive portfolio website using React',
-            'o website we build in this tutorial will consis',
-            'ng React JS. The portfolio website we build in this tutorial will consist of a navbar, hero section'
+            'Designing and developing responsive and user-friendly WordPress websites using HTML, CSS, PHP, JavaScript, and other web technologies',
+            'Installing, configuring, and updating WordPress themes and plugins to enhance the functionality and appearance of WordPress websites',
+            'Troubleshooting and resolving WordPress issues, such as performance, security, compatibility, and usability',
+            'Testing and optimizing WordPress websites for speed, SEO, and accessibility'
+        ]
+    },
+    {
+        title:'WordPress Designer' ,
+        date : 'March 2013 - July 2017' ,
+        responsibilities: [
+            'Maintaining websites and databases',
+            'Designing and developing responsive and user-friendly WordPress websites using HTML, CSS, PHP, JavaScript, and other web technologies',
+            'Installing, configuring, and updating WordPress themes and plugins to enhance the functionality and appearance of WordPress websites'
         ]
     },
 ]
