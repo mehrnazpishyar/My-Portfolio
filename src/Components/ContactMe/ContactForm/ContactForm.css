@@ -106,7 +106,7 @@
     background: linear-gradient(90deg, #a892fe 0%, #8064e8 100%);
     border-radius: 0.5rem;
     text-transform: uppercase;
-    color: #fff;
+    color: #000;
     transition: all 0.3s ease;
     border: 1px solid transparent;
   }

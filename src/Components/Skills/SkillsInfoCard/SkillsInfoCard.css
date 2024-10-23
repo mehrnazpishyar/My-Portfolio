@@ -1,5 +1,6 @@
 .skills-info-card {
   min-height: 17.2rem;
+  width: 25rem;
   border-radius: 0.65rem;
   border: 1.5px solid #6751b9;
   background: rgba(22, 17, 47, 0.398);
@@ -38,6 +39,7 @@
   line-height: 2rem;
   padding-top: 0.5rem;
   padding-right: 0.5rem;
+  color: #6751b9;
 }
 
 @media (max-width: 1025px) {
