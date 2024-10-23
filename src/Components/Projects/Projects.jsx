@@ -16,6 +16,7 @@ const Projects = () => {
             des={item.des}
             src={item.src}
             url={item.url}
+            github={item.github}
           />
         ))}
       </div>

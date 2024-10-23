@@ -3,7 +3,7 @@ import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
 
-const ProjectsCard = ({ title, des, src, url }) => {
+const ProjectsCard = ({ title, des, src, url,github }) => {
 
   const openUrlInBrowser = (url) => {
     if (url) {
@@ -23,7 +23,7 @@ const ProjectsCard = ({ title, des, src, url }) => {
           <div className="projects-card-header">
             <h3>{title}</h3>
             <div className="projects-card-icons">
-              <span className="icon" onClick={() => openUrlInBrowser(url)}>
+              <span className="icon" onClick={() => openUrlInBrowser(github)}>
                 <BsGithub />
               </span>
               <span className="icon" onClick={() => openUrlInBrowser(url)}>

@@ -107,31 +107,36 @@ export const Project_Card = [
         title:"E-commerce Website",
         des:"This is a sample project for an online shop where users can view product details, add items to their Favorite list, or purchase products directly. Additionally, products can be filtered by category and price.",
         src:'./ecommerce.jpg',
-        url:'https://ecommerce-siteee.netlify.app/'
+        url:'https://ecommerce-siteee.netlify.app/',
+        github:'https://github.com/mehrnazpishyar/E-Commerce-Website'
     },
     {
         title:"Movie character app",
         des:" This is a sample project related to movie characters, where users can select their character and view the related movies and episodes.also can add characters to their Favorite list or find them through search.",
         src:'./movie-character.jpg',
-        url:'https://movie-character-app.netlify.app/'
+        url:'https://movie-character-app.netlify.app/',
+        github:'https://github.com/mehrnazpishyar/Movie-Character-App'
     },
     {
         title:"E-commerce Website",
         des:"This is a sample project for an online shop where users can view product details, add items to their wishlist, or purchase products directly. Additionally, products can be filtered by category and price.",
         src:'./ecommerce.jpg',
-        url:''
+        url:'',
+        github:''
     },
     {
         title:"E-commerce Website",
         des:"This is a sample project for an online shop where users can view product details, add items to their Favorite list, or purchase products directly. Additionally, products can be filtered by category and price.",
         src:'./ecommerce.jpg',
-        url:'https://ecommerce-siteee.netlify.app/'
+        url:'https://ecommerce-siteee.netlify.app/',
+        github:''
     },
     {
         title:"Movie character app",
         des:" This is a sample project related to movie characters, where users can select their character and view the related movies and episodes.also can add characters to their Favorite list or find them through search.",
         src:'./movie-character.jpg',
-        url:'https://movie-character-app.netlify.app/'
+        url:'https://movie-character-app.netlify.app/',
+        github:''
     },
     {
         title:"E-commerce Website",
