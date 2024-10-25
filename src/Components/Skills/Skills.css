@@ -2,8 +2,7 @@
   position: relative;
 }
 
-.skills-container::after,
-.skills-container::before {
+.skills-container::after{
   content: "";
   width: 28rem;
   height: 28rem;
@@ -19,10 +18,6 @@
   left: -5rem;
 }
 
-.skills-container::before {
-  bottom: 0rem;
-  right: 0rem;
-}
 
 .skills-container h2 {
   font-size: 2.5rem;

@@ -1,10 +1,30 @@
-.contact-container {
- display: flex;
- justify-content: center;
- gap: 2rem;
+.content-main {
+  position: relative;
 }
 
-.content-title h2{
+.contact-main::before {
+  content: "";
+  width: 28rem;
+  height: 28rem;
+  border-radius: 28.125rem;
+  background: #7c66e3;
+  position: absolute;
+  z-index: -1;
+  filter: blur(250px);
+}
+
+.contact-main::before {
+  bottom: 0rem;
+  left: 0rem;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.content-title h2 {
   margin-top: 10rem;
   margin-bottom: 2rem;
   font-size: 2.5rem;
@@ -15,7 +35,4 @@
   .contact-container {
     flex-direction: column;
   }
-
 }
-
-

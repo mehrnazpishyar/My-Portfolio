@@ -9,12 +9,15 @@
     display: flex;
     flex-direction: column;
     background: linear-gradient(to right, #202327, #202327);
-    transition: background 1s ease;
+    transition: transform 0.4s ease;
   }
   
   .projects-card:hover {
     background: linear-gradient(to bottom, #1a1a1a, #1a1a1a);
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
   }
+
   
 
   .projects-card-image {
@@ -28,15 +31,8 @@
     height: 15rem;
     object-fit: cover;
     border-radius: 0.5rem;
-    transition: transform 0.3s ease;
-    cursor: pointer;
   }
   
-  .projects-card-image img:hover {
-    transform: scale(1.1);
-  }
-  
- 
   .projects-card-content {
     width: 100%;
     margin-top: 1.25rem;
@@ -55,7 +51,8 @@
   .projects-card-header h3 {
     font-size: 1rem;
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
+    color: #6751b9;
   }
   
 

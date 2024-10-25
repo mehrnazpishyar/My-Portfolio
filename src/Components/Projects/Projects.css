@@ -4,10 +4,37 @@
   border-bottom: 1px solid black;
 }
 
+.projects-container{
+  position: relative;
+}
 
-.projects-container {
+
+.projects-container::after,
+.projects-container::before {
+  content: "";
+  width: 28rem;
+  height: 28rem;
+  border-radius: 28.125rem;
+  background: #7c66e3;
+  position: absolute;
+  z-index: -1;
+  filter: blur(250px);
+}
+
+.projects-container::after {
+  top: -3rem;
+  left: -5rem;
+}
+
+.projects-container::before {
+  bottom: 0rem;
+  right: 0rem;
+}
+
+.project-title {
   text-align: left;
   margin-bottom: 6rem;
+  
 }
 
 .projects-container h2{

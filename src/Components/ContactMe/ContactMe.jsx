@@ -5,7 +5,7 @@ import './ContactMe.css'
 
 const ContactLeft = () => {
   return (
-    <div>
+    <div className="contact-main">
       <div id="contact" className="content-title">
       <h2>Contact with Me</h2>
       </div>

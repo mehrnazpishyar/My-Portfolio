@@ -4,8 +4,8 @@ import ProjectsCard from "./ProjectsCard/ProjectsCard";
 
 const Projects = () => {
   return (
-    <section id="projects">
-      <div className="projects-container">
+    <section id="projects" className="projects-container">
+      <div className="project-title">
         <h2>My Highlight Projects</h2>
       </div>
       <div className="projects-grid">
