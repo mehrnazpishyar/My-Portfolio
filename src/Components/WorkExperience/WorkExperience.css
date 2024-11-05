@@ -1,5 +1,4 @@
 .experience-container {
-  margin: 11rem 0;
   position: relative;
 }
 
@@ -21,10 +20,14 @@
 
 
 .experience-container h2 {
-  font-size: 2.5rem;
-  text-align: center;
+  font-size: 1.8rem;
   font-weight: 600;
-  margin-bottom: 5rem;
+  margin-top: -4rem;
+  margin-bottom: 4rem;
+  text-align: left;
+  border-bottom: 2px solid #6751b9; 
+  padding-bottom: 0.8rem; 
+  width: fit-content;
 }
 
 .arrow-right,

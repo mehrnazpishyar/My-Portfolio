@@ -1,6 +1,4 @@
 .skills-info-card {
-  min-height: 17.2rem;
-  width: 25rem;
   border-radius: 0.65rem;
   border: 1.5px solid #6751b9;
   background: rgba(22, 17, 47, 0.398);
@@ -9,22 +7,40 @@
 }
 
 .skills-info-card h6 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 0.8rem 2rem;
   background: linear-gradient(180deg, #ac96ff 0%, #7c5fe6 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border-bottom: 1.5px solid #6751b9;
+  margin-bottom: 1rem;
 }
 
 .skills-info-content {
   padding: 2rem;
 }
 
+.skills-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.skills-table td {
+  padding: 0.8rem;
+  vertical-align: top;
+}
+
 .skill-info {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
+  padding: 0 1.5rem;
+}
+
+.skill-info svg {
+  color: #7c5fe6;
+  font-size: 1.5rem;
 }
 
 .skill-info p {

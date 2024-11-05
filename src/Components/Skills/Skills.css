@@ -1,5 +1,6 @@
 .skills-container {
   position: relative;
+  min-height: 100vh;
 }
 
 .skills-container::after{
@@ -20,10 +21,12 @@
 
 
 .skills-container h2 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   font-weight: 600;
-  margin-bottom: 3.5rem;
-  text-align: center;
+  text-align: left;
+  border-bottom: 2px solid #6751b9; 
+  padding-bottom: 0.8rem; 
+  width: fit-content;
 }
 
 .skills-content {
@@ -31,19 +34,16 @@
   align-items: flex-start;
   justify-content: space-around;
   gap: 3rem;
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 
 .skills {
- 
   display: grid;
   grid-gap: 3rem;
   grid-template-columns: repeat(2, 1fr);
 }
 
-.skills-info {
 
-}
 
 @media (max-width: 1025px) {
   .skills {

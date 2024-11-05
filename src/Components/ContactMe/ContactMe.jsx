@@ -7,7 +7,7 @@ const ContactLeft = () => {
   return (
     <div className="contact-main">
       <div id="contact" className="content-title">
-      <h2>Contact with Me</h2>
+      <h2>Contact with Me :</h2>
       </div>
       <div className="contact-container">
         <ContactInfoCard />
