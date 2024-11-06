@@ -1,20 +1,42 @@
-import './ProjectsCard.css'
+import React, { useEffect, useRef, useState } from 'react';
+import './ProjectsCard.css';
 import { BsGithub } from "react-icons/bs";
 import { FaGlobe } from "react-icons/fa";
 
+const ProjectsCard = ({ title, des, src, url, github }) => {
+  const [isVisible, setIsVisible] = useState(false);
+  const cardRef = useRef(null);
 
-const ProjectsCard = ({ title, des, src, url,github }) => {
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+        } else {
+          setIsVisible(false);
+        }
+      },
+      {
+        threshold: 0.1, 
+      }
+    );
 
-  const openUrlInBrowser = (url) => {
-    if (url) {
-      window.open(url, '_blank'); 
-    } else {
-      alert('No URL available for this project.');
+    if (cardRef.current) {
+      observer.observe(cardRef.current);
     }
-  }
-  
+
+    return () => {
+      if (cardRef.current) {
+        observer.unobserve(cardRef.current);
+      }
+    };
+  }, []);
+
   return (
-    <div className="projects-card">
+    <div
+      ref={cardRef}
+      className={`projects-card ${isVisible ? 'in-view' : ''}`}
+    >
       <div className="projects-card-image">
         <img src={src} alt="project" />
       </div>
@@ -23,10 +45,10 @@ const ProjectsCard = ({ title, des, src, url,github }) => {
           <div className="projects-card-header">
             <h3>{title}</h3>
             <div className="projects-card-icons">
-              <span className="icon" onClick={() => openUrlInBrowser(github)}>
+              <span className="icon" onClick={() => window.open(github, '_blank')}>
                 <BsGithub />
               </span>
-              <span className="icon" onClick={() => openUrlInBrowser(url)}>
+              <span className="icon" onClick={() => window.open(url, '_blank')}>
                 <FaGlobe />
               </span>
             </div>
@@ -36,6 +58,6 @@ const ProjectsCard = ({ title, des, src, url,github }) => {
       </div>
     </div>
   );
-}
+};
 
 export default ProjectsCard;
