@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.experience-container::after{
+.experience-container::after {
   content: "";
   width: 28rem;
   height: 28rem;
@@ -18,15 +18,14 @@
   right: -5rem;
 }
 
-
 .experience-container h2 {
   font-size: 1.8rem;
   font-weight: 600;
-  margin-top: -4rem;
+  margin-top: 8rem;
   margin-bottom: 4rem;
   text-align: left;
-  border-bottom: 2px solid #6751b9; 
-  padding-bottom: 0.8rem; 
+  border-bottom: 2px solid #6751b9;
+  padding-bottom: 0.8rem;
   width: fit-content;
 }
 
@@ -47,12 +46,6 @@
   cursor: pointer;
 }
 
-.arrow-right span,
-.arrow-left span {
-  font-size: 2rem;
-  font-weight: 500;
-}
-
 .arrow-right {
   right: -2rem;
 }
@@ -65,7 +58,16 @@
   font-size: 1.5rem;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
+  .experience-container {
+    padding-top: 10rem;
+    margin: 1.2rem;
+  }
+
+  .experience-container h2 {
+    margin-top: 0;
+  }
+
   .arrow-left {
     left: 0;
   }
@@ -76,6 +78,10 @@
 }
 
 @media (max-width: 768px) {
+  .experience-container {
+    margin: 0 3rem;
+  }
+
   .experience-container h5 {
     font-size: 1.3rem;
     margin-bottom: 2rem;
@@ -86,5 +92,16 @@
 
   .arrow-right {
     right: -1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .experience-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.8rem;
+  }
+
+  .chevron {
+    font-size: 1rem;
   }
 }

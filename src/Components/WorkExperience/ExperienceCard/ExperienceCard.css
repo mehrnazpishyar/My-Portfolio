@@ -52,3 +52,9 @@
     font-size: 0.75rem;
   }
 }
+
+@media (max-width: 600px) {
+  .work-experience-card {
+    margin: 2rem;
+  }
+}

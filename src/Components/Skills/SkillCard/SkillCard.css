@@ -40,13 +40,13 @@
   font-weight: 500;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1024px) {
   .skills-card {
-    padding: 2.5rem 7rem;
+    padding: 2.8rem 4rem;
   }
 
   .skills-card span {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 
   .skill-icon {
@@ -61,15 +61,22 @@
 
 @media (max-width: 768px) {
   .skills-card {
-    padding: 2.3rem 7rem;
+    padding: 2.3rem 5rem;
   }
   .skills-card span {
     font-size: 0.9rem;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .skills-card {
-    padding: 2rem 3rem;
+    padding: 1.5rem 1.4rem;
+  }
+  .skills-card span {
+    font-size: 0.8rem;
+  }
+  .skill-icon {
+    width: 2.5rem;
+    height: 2.5rem;
   }
 }

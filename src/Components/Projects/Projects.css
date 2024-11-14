@@ -1,10 +1,8 @@
-
-.projects-container{
+.projects-container {
   position: relative;
   width: 100%;
   padding-top: 14rem;
 }
-
 
 .projects-container::after,
 .projects-container::before {
@@ -31,32 +29,43 @@
 .project-title {
   text-align: left;
   margin-bottom: 4rem;
-  
 }
 
-.projects-container h2{
+.projects-container h2 {
   font-size: 1.8rem;
   font-weight: 600;
   text-align: left;
-  border-bottom: 2px solid #6751b9; 
-  padding-bottom: 0.8rem; 
+  border-bottom: 2px solid #6751b9;
+  padding-bottom: 0.8rem;
   width: fit-content;
 }
 
 .projects-grid {
   display: grid;
-  grid-template-columns: 1fr; 
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(320px, 1fr)
+  ); /* تنظیم ستون‌ها برای ریسپانسیو */
   gap: 1.5rem;
+}
 
-
-  @media (min-width: 768px) {
-    grid-template-columns: repeat(2, 1fr); 
+@media (max-width: 1024px) {
+  .projects-container {
+    padding-top: 8rem;
+    margin: 0 1rem;
   }
 
-  
- 
-  @media (min-width: 1280px) {
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 3.5rem; 
+  .projects-grid {
+    margin-right: 2rem;
+  }
+
+  .projects-container h2 {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .projects-container h2 {
+    font-size: 1.5rem;
   }
 }

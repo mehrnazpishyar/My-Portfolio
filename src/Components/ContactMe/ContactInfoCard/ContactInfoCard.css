@@ -1,49 +1,90 @@
-
 .profile-info {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    margin-top: 4rem;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 4rem;
+}
 
-  .profile-name {
-    font-size: 1.875rem; 
-    font-weight: bold;
-    color: #7c66e3;
+.profile-name {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #7c66e3;
+}
+
+.profile-title {
+  font-size: 1.125rem;
+  font-weight: normal;
+  color: #9ca3af;
+}
+
+.profile-description {
+  font-size: 1rem;
+  color: #9ca3af;
+  letter-spacing: 0.05rem;
+}
+
+.profile-contact {
+  font-size: 1rem;
+  color: #9ca3af;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.profile-contact-detail {
+  color: #f3f4f6;
+  font-size: 1.2rem;
+}
+
+.contact-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .profile-contact {
+    display: block;
   }
-  
-  
-  .profile-title {
-    font-size: 1.125rem; 
-    font-weight: normal;
-    color: #9ca3af; 
-  }
-  
 
   .profile-description {
-    font-size: 1rem; 
-    color: #9ca3af; 
-    letter-spacing: 0.05rem; 
+    margin: 0 1rem;
   }
-  
- 
-  .profile-contact {
-    font-size: 1rem; 
-    color: #9ca3af; 
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  .profile-name {
+    font-size: 2rem;
   }
-  
+  .profile-title {
+    font-size: 1.5rem;
+  }
 
-  .profile-contact-detail {
-    color: #f3f4f6; 
+  .profile-description {
+    font-size: 1.6rem;
+  }
+
+  .profile-contact {
+    font-size: 2rem;
+  }
+  .profile-contact span {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile-description {
+    margin: 0 1rem;
+  }
+  .profile-title {
+    font-size: 1.3rem;
+  }
+
+  .profile-description {
     font-size: 1.2rem;
   }
-  
-  .contact-image img{
-    width: 300px;
-    height: 300px;
-    border-radius: 0.5rem;
+
+  .profile-contact {
+    font-size: 1.5rem;
   }
+  .profile-contact span {
+    font-size: 1.5rem;
+  }
+}

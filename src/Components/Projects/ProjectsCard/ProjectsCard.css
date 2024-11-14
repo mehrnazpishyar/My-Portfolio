@@ -100,3 +100,18 @@
       opacity: 1;
     }
   }
+
+
+  @media (max-width: 480px) {
+ 
+    .projects-card-header h3 {
+      font-size: 0.8rem;
+    }
+    .icon {
+      font-size: 1rem;
+      width: 2rem;
+      height: 2rem;
+    }
+    
+  }
+  

@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700;800&display=swap');
-*{
-    font-family: "Noto Sans", sans-serif;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;600;700;800&display=swap");
 
+* {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    color:#fff;
-    background-color: #060417;
+body {
+  color: #fff;
+  background-color: #060417;
 }
