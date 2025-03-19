@@ -37,6 +37,7 @@ export const SKILLS = [
             {skill:'Adobe Illustrator'},
             {skill:'Adobe XD'},
             {skill:'Figma'},
+            {skill:'Canva'},
             
         ],
     },
@@ -49,6 +50,7 @@ export const SKILLS = [
             {skill:'Attention to Detail'},
             {skill:'Communication skills'},
             {skill:'Teamwork skills'},
+            {skill:'Creativity'},
            
         ],
     },
@@ -57,15 +59,14 @@ export const SKILLS = [
 
 export const WORK_EXPERIENCE  = [
     {
-        title:'Frontend Developer' ,
-        date : 'August 2024 - present' ,
+        title:'Web Developer / Shop Administrator' ,
+        date : 'August 2024 - March 2025' ,
         responsibilities: [
-            'Part of the development team responsible for creating and designing the web application using React.js',
-            'Developed the web application focusing on UI/UX',
-            'Optimized components for web-based applications, ensuring maximum performance across a wide range of devices and browsers',
-            'Created a smooth and efficient user experience by developing Single Page Applications (SPA) with React Router',
-            'Utilized React concepts such as JSX, components, state, props, and hooks to develop robust and scalable web applications for clients',
-            'Worked in an agile environment, employing methodologies like Scrum for efficient, smooth development and on-time delivery of projects'
+            'Management of the online store (Shopware 6), including optimization of categories, creation of new structures, and adjustment of the search function.',
+            'Customization and updating of products in the Sage 100 ERP system and their integration into the shop system.',
+            'Optimization and further development of WordPress websites.',
+            'Conducting web analyses and benchmarking with competitors.',
+            'In addition to my main activities, I have implemented various personal projects using React.js to deepen my knowledge in frontend development and further develop my skills with modern technologies.'
         ]
     },
     {
@@ -111,37 +112,38 @@ export const Project_Card = [
         github:'https://github.com/mehrnazpishyar/E-Commerce-Website'
     },
     {
+        title:"Food Delivery Website",
+        des:"Food-Delivery is an online platform that allows users to explore menus, and place food orders for delivery or pickup. With a user-friendly interface, it provides a seamless ordering experience, ensuring quick and convenient meal deliveries.",
+        src:'./food.jpg',
+        url:'https://food-delivery-wzb6.onrender.com/',
+        github:'https://github.com/mehrnazpishyar/Food-Delivery.git'
+    },
+    {
+        title:"Doctor Appointment App",
+        des:"The Doctor Appointment website allows users to browse doctors by category and book appointments online. With an easy-to-use interface, patients can quickly find the right specialist and schedule a consultation at their convenience.",
+        src:'./appointment.jpg',
+        url:'https://doctor-appointment-booking-8n9p.onrender.com/',
+        github:'https://github.com/mehrnazpishyar/Doctor-Appointment-Booking.git'
+    },
+    {
         title:"Movie character app",
         des:" This is a sample project related to movie characters, where users can select their character and view the related movies and episodes.also can add characters to their Favorite list or find them through search.",
         src:'./movie-character.jpg',
         url:'https://movie-character-app.netlify.app/',
-        github:'https://github.com/mehrnazpishyar/Movie-Character-App'
+        github:'https://github.com/mehrnazpishyar/Movie-Character-App.git'
     },
     {
-        title:"E-commerce Website",
-        des:"This is a sample project for an online shop where users can view product details, add items to their wishlist, or purchase products directly. Additionally, products can be filtered by category and price.",
-        src:'./ecommerce.jpg',
+        title:"Booking-Hotel-App",
+        des:"The Hotel Booking website helps users find and book their ideal hotel with ease. It offers a wide range of options, check availability, and make reservations online conveniently.",
+        src:'./hotel.jpg',
+        url:'https://booking-hotel-site.netlify.app/',
+        github:'https://github.com/mehrnazpishyar/Booking-Hotel-App.git'
+    },
+    {
+        title:"Responsive Animation Web",
+        des:"This website features engaging animations that enhance user experience and interactivity. With smooth transitions and dynamic effects, it creates a visually appealing and immersive browsing experience.",
+        src:'./animation.jpg',
         url:'',
         github:''
-    },
-    {
-        title:"E-commerce Website",
-        des:"This is a sample project for an online shop where users can view product details, add items to their Favorite list, or purchase products directly. Additionally, products can be filtered by category and price.",
-        src:'./ecommerce.jpg',
-        url:'https://ecommerce-siteee.netlify.app/',
-        github:''
-    },
-    {
-        title:"Movie character app",
-        des:" This is a sample project related to movie characters, where users can select their character and view the related movies and episodes.also can add characters to their Favorite list or find them through search.",
-        src:'./movie-character.jpg',
-        url:'https://movie-character-app.netlify.app/',
-        github:''
-    },
-    {
-        title:"E-commerce Website",
-        des:"This is a sample project for an online shop where users can view product details, add items to their wishlist, or purchase products directly. Additionally, products can be filtered by category and price.",
-        src:'./ecommerce.jpg',
-        url:''
     },
 ]

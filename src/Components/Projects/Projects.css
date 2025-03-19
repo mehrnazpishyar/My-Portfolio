@@ -1,7 +1,6 @@
 .projects-container {
   position: relative;
   width: 100%;
-  padding-top: 14rem;
 }
 
 .projects-container::after,
@@ -38,6 +37,7 @@
   border-bottom: 2px solid #6751b9;
   padding-bottom: 0.8rem;
   width: fit-content;
+  margin-top: 15rem;
 }
 
 .projects-grid {
@@ -45,7 +45,7 @@
   grid-template-columns: repeat(
     auto-fit,
     minmax(320px, 1fr)
-  ); /* تنظیم ستون‌ها برای ریسپانسیو */
+  ); 
   gap: 1.5rem;
 }
 

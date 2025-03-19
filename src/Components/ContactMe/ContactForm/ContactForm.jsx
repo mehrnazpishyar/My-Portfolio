@@ -13,8 +13,8 @@ const Contact = () => {
 
   const emailValidation = () => {
     return String(email)
-      .toLocaleLowerCase()
-      .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
+    .toLowerCase()
+    .match(/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,})+$/);
   };
 
   const handleSend = (e) => {

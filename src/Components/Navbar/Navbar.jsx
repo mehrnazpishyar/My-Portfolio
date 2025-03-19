@@ -37,7 +37,7 @@ const Navbar = () => {
                 to="skills"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 Skills
@@ -48,7 +48,7 @@ const Navbar = () => {
                 to="experience"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                 Work Experience
@@ -59,7 +59,7 @@ const Navbar = () => {
                 to="projects"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
                Projects
@@ -71,7 +71,7 @@ const Navbar = () => {
                 to="contact"
                 spy={true}
                 smooth={true}
-                offset={50}
+                offset={0}
                 duration={500}
               >
               Contact Me
