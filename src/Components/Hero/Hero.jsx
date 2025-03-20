@@ -57,7 +57,7 @@ const Hero = () => {
           <a href="mailto:mpishyar.de@gmail.com">Let's connect</a>
         </div>
       </div>
-      <img src="./myPic.jpg" alt="myPic" />
+     <img src="/my_pic.jpg" alt="my_pic"/>
     </div>
   );
 };
