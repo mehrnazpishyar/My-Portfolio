@@ -49,9 +49,10 @@ const Hero = () => {
           {`Hi I'm `} <span className="wrap">{text}</span>{" "}
         </h1>
         <p>
-          I am a passionate Frontend developer with experience in React.js,
-          UI-UX design, and SPA development. I enjoy creating web applications
-          that are fast, responsive, and user-friendly.
+        
+I'm a passionate Frontend Developer with hands-on experience in React.js, UI/UX design, and building Single Page Applications (SPAs). I love crafting fast, responsive, and user-friendly web experiences that combine functionality with great design.
+
+
         </p>
         <div className="mail">
           <a href="mailto:mpishyar.de@gmail.com">Let's connect</a>

@@ -115,14 +115,14 @@ export const Project_Card = [
         title:"Food Delivery Website",
         des:"Food-Delivery is an online platform that allows users to explore menus, and place food orders for delivery or pickup. With a user-friendly interface, it provides a seamless ordering experience, ensuring quick and convenient meal deliveries.",
         src:'./food.jpg',
-        url:'https://food-delivery-wzb6.onrender.com/',
+        url:'https://fooddeliverwebsite.netlify.app/',
         github:'https://github.com/mehrnazpishyar/Food-Delivery.git'
     },
     {
         title:"Doctor Appointment App",
         des:"The Doctor Appointment website allows users to browse doctors by category and book appointments online. With an easy-to-use interface, patients can quickly find the right specialist and schedule a consultation at their convenience.",
         src:'./appointment.jpg',
-        url:'https://doctor-appointment-booking-8n9p.onrender.com/',
+        url:'https://doctorappointmentwebsite.netlify.app/',
         github:'https://github.com/mehrnazpishyar/Doctor-Appointment-Booking.git'
     },
     {
@@ -143,7 +143,7 @@ export const Project_Card = [
         title:"Responsive Animation Web",
         des:"This website features engaging animations that enhance user experience and interactivity. With smooth transitions and dynamic effects, it creates a visually appealing and immersive browsing experience.",
         src:'./animation.jpg',
-        url:'',
-        github:''
+        url:'https://responsiveanimationweb.netlify.app/',
+        github:'https://github.com/mehrnazpishyar/Responsive-Animation-Web'
     },
 ]
