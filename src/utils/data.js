@@ -62,42 +62,42 @@ export const WORK_EXPERIENCE  = [
         title:'Web Developer / Shop Administrator' ,
         date : 'August 2024 - March 2025' ,
         responsibilities: [
-            'Management of the online store (Shopware 6), including optimization of categories, creation of new structures, and adjustment of the search function.',
-            'Customization and updating of products in the Sage 100 ERP system and their integration into the shop system.',
-            'Optimization and further development of WordPress websites.',
-            'Conducting web analyses and benchmarking with competitors.',
-            'In addition to my main activities, I have implemented various personal projects using React.js to deepen my knowledge in frontend development and further develop my skills with modern technologies.'
+            'Management and strategic development of the online shop (Shopware 6) – including optimization of the category structure, creation of new navigation paths, and fine-tuning of the search function to improve the user experience.',
+            'Maintenance, updating, and seamless synchronization of product data between Sage 100 and Shopware 6, resulting in improved data quality and process efficiency.',
+            'Optimization and technical enhancement of WordPress websites, with a focus on performance, responsive design, and user-centered UX.',
+            'Conducting data-driven web and competitor analyses using Google Analytics and benchmarking tools to derive targeted improvement measures.',
+            'Independent implementation of modern frontend projects with React.js on weekends, for continuous development of my skills in JavaScript, component architecture, and UI design.'
         ]
     },
     {
         title:'Frontend Developer' ,
         date : 'March 2019 - May 2023' ,
         responsibilities: [
-            'Part of the development team responsible for creating and designing the web application using React.js',
-            'Developed the web application focusing on UI/UX',
-            'Optimized components for web-based applications, ensuring maximum performance across a wide range of devices and browsers',
-            'Created a smooth and efficient user experience by developing Single Page Applications (SPA) with React Router',
-            'Utilized React concepts such as JSX, components, state, props, and hooks to develop robust and scalable web applications for clients',
-            'Worked in an agile environment, employing methodologies like Scrum for efficient, smooth development and on-time delivery of projects'
+            'Collaboration in an agile development team for the conception and implementation of a web application using React.js.',
+            'Design and implementation of modern UI/UX concepts to create a user-friendly and intuitive web application.',
+            'Optimization of React components for maximum performance across various devices and browsers.',
+            'Development of Single Page Applications (SPA) using React Router for a seamless user experience.',
+            'Application of advanced React concepts such as JSX, component structure, state management, props, and hooks to build robust web solutions.',
+            'Working with agile methodologies (Scrum) to ensure efficient project execution and on-time delivery of features.'
         ]
     },
     {
         title:'UI und WordPress Designer' ,
         date : 'August 2017 - January 2019' ,
         responsibilities: [
-            'Designing and developing responsive and user-friendly WordPress websites using HTML, CSS, PHP, JavaScript, and other web technologies',
-            'Installing, configuring, and updating WordPress themes and plugins to enhance the functionality and appearance of WordPress websites',
-            'Troubleshooting and resolving WordPress issues, such as performance, security, compatibility, and usability',
-            'Testing and optimizing WordPress websites for speed, SEO, and accessibility'
+            'Development of responsive and user-friendly WordPress websites using modern web technologies such as HTML, CSS, and JavaScript.',
+            'Installation, configuration, and customization of themes and plugins to specifically enhance functionality, performance, and design.',
+            'Analysis and resolution of technical issues related to performance, security, compatibility, and usability.',
+            'Optimization of loading times, SEO, and accessibility through targeted testing and the use of proven tools and best practices.'
         ]
     },
     {
         title:'WordPress Designer' ,
         date : 'March 2013 - July 2017' ,
         responsibilities: [
-            'Maintaining websites and databases',
-            'Designing and developing responsive and user-friendly WordPress websites using HTML, CSS, PHP, JavaScript, and other web technologies',
-            'Installing, configuring, and updating WordPress themes and plugins to enhance the functionality and appearance of WordPress websites'
+            'Maintenance and upkeep of WordPress websites and associated databases, including regular backups and security updates.',
+            ' Installation, configuration, and updating of WordPress themes and plugins to extend functionality and enhance design.',
+            ' Performance, SEO, and accessibility optimization through targeted testing and the use of modern analysis tools and best practices.'
         ]
     },
 ]
